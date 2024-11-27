@@ -1,0 +1,64 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fondo y cuerpo de la página */
+body {
+    background-color: #f4f5f7; /* Fondo neutro empresarial */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo del encabezado */
+header {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor de la lista */
+ul {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    list-style: none;
+}
+
+/* Elementos de la lista */
+ul li {
+    margin: 15px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Enlaces */
+ul li a {
+    color: #0056b3; /* Color empresarial */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    color: #002f6c; /* Azul más oscuro en hover */
+    text-decoration: underline;
+}

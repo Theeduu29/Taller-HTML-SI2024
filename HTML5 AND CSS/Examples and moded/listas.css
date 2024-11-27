@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fondo y cuerpo de la página */
+body {
+    background-color: #f5f5f1; /* Color blanco crema */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Membrete */
+header {
+    width: 70%;
+    max-width: 1000px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de navegación (azul) */
+nav {
+    background-color: #0056b3; /* Azul más intenso para la barra */
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly; /* Distribuye los elementos de manera equitativa */
+    align-items: center;
+}
+
+/* Lista de enlaces */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espacio uniforme entre los enlaces */
+}
+
+/* Estilo para cada enlace */
+nav ul li a {
+    color: #ffffff; /* Texto blanco para los enlaces */
+    text-decoration: none;
+    font-size: 1.1em; /* Tamaño de fuente adecuado */
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffff99; /* Color de hover en los enlaces (amarillo claro) */
+    text-decoration: underline;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 2.5em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para los encabezados en el contenido */
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #0056b3; /* Color azul para los subtítulos */
+}
+
+/* Estilo de las listas */
+ul, ol {
+    font-size: 1.1em;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+ul ul, ol ol {
+    margin-left: 20px;
+}
+
+/* Ajuste de los márgenes y espaciado */
+ul li ul {
+    margin-top: 10px;
+}
+
+h2, ul, ol {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}

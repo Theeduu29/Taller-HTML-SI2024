@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fondo y cuerpo de la página */
+body {
+    background-color: #f5f5f1; /* Color blanco crema */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Membrete */
+header {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de navegación (azul) */
+nav {
+    background-color: #0056b3; /* Azul más intenso para la barra */
+    width: 100%;
+    max-width: 1300px;
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly; /* Distribuye los elementos de manera equitativa */
+    align-items: center;
+}
+
+/* Lista de enlaces */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espacio uniforme entre los enlaces */
+}
+
+/* Estilo para cada enlace */
+nav ul li a {
+    color: #ffffff; /* Texto blanco para los enlaces */
+    text-decoration: none;
+    font-size: 1.1em; /* Tamaño de fuente adecuado */
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffff99; /* Color de hover en los enlaces (amarillo claro) */
+    text-decoration: underline;
+}
+
+/* Contenedor de contenido principal (blanco) */
+main {
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos principales */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Estilo para las etiquetas comunes */
+s, b, i, u, small {
+    font-size: 1.2em;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/* Enlaces dentro de párrafos */
+a {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #002f6c;
+    text-decoration: underline;
+}
